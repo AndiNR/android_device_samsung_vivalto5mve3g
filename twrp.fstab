@@ -1,0 +1,11 @@
+/external_sd	vfat		/dev/block/mmcblk1p1	/dev/block/mmcblk1	flags=display="Micro SD";storage;wipeingui;removable
+/system       ext4          /dev/block/platform/sprd-sdhci.3/by-name/system			 default
+/preload      ext4	    /dev/block/platform/sprd-sdhci.3/by-name/HIDDEN			 default
+/data	      ext4	    /dev/block/platform/sprd-sdhci.3/by-name/userdata			 default wait,length=-16384
+/cache	      ext4	    /dev/block/platform/sprd-sdhci.3/by-name/CSC			 default
+/efs	      ext4	    /dev/block/platform/sprd-sdhci.3/by-name/efs			 default
+/productinfo  ext4	    /dev/block/platform/sprd-sdhci.3/by-name/prodnv			 default
+/boot	      emmc	    /dev/block/platform/sprd-sdhci.3/by-name/KERNEL			 default
+/recovery     emmc	    /dev/block/platform/sprd-sdhci.3/by-name/RECOVERY			 default
+/modemcp      emmc	    /dev/block/platform/sprd-sdhci.3/by-name/MODEM			 default
+/modemdsp     emmc	    /dev/block/platform/sprd-sdhci.3/by-name/WDSP			 default

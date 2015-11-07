@@ -1,0 +1,2 @@
+add_lunch_combo cm_vivalto5mve3g
+lunch cm_vivalto5mve3g-userdebug
